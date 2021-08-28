@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    color: white;
+    background-color: darkred;
+}
+body {
+    background-color: cadetblue;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.carte {
+    display: block;
+    border: solid black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    background-color: black;
+}
+.retournee{
+    display: block;
+    border: solid green;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    background-color: green;
+}
